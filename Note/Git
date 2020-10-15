@@ -1,3 +1,16 @@
+今後の課題
+
+	作成したローカルリポジトリをリモートにPushしたい
+	リモートリポジトリをGitHub以外、具体的には自分の所有するサーバーにしたい	
+
+git remote add origin <Repository Path>
+	リモートリポジトリの追加
+	事前にGitHubなど対象のでからのリポジトリの作成の必要あり？
+
+git push origin master
+	branch を指定してリモートへPut
+
+
 config 
 	各種設定を行う
 	--global
@@ -37,4 +50,7 @@ diff
 log
 	コミットの履歴を確認する
 
+ssh -T git@github.com
+	GitHubへの接続テスト
+	SSHキーをサイトに登録した後に行う
 
