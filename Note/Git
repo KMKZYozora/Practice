@@ -4,6 +4,11 @@ config
 		user.name
 		user.ename
 		core.editor
+		core.pager
+			PowerShell使うなら`less`はないので`more`を使用する
+		core.quotepath
+			日本語使うなら"false"を設定
+		
 
 init
 	ローカルリポジトリを作成する
@@ -31,4 +36,5 @@ diff
 
 log
 	コミットの履歴を確認する
+
 
